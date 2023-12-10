@@ -1,6 +1,6 @@
 @font-face {
     font-family: title;
-    src: url(./шрифты/JuliusSansOne-Regular1.ttf);
+    src: url(JuliusSansOne-Regular1.ttf);
 }
 body{
     flex-direction: column;
