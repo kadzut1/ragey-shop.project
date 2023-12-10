@@ -1,0 +1,373 @@
+@font-face {
+    font-family: title;
+    src: url(./шрифты/JuliusSansOne-Regular1.ttf);
+}
+body{
+    flex-direction: column;
+    align-items: center;
+}
+*{
+    margin: 0%;
+}
+.header{
+    padding-top: 30px;
+    padding-bottom: 600px;
+}
+.navigation {
+    display: flex;
+    width: 100%;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #828282;
+    margin-bottom: 40px;
+   
+}
+.navigation-burger img{
+    width: 45px;
+  
+}
+.container {
+    width: 1300px;
+    margin: 0px auto;
+    
+}
+.navigation-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    color: black;
+    font-family:title ;
+    
+}
+h1{
+    font-size: 128px;
+    font-family: title;
+    display: flex;
+    position: relative;
+    justify-content:  center;
+    margin: 0%;
+    padding-top: 130px;
+    padding-bottom: 6px;
+    z-index: 2;
+    color: black;
+} 
+.header-text{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: relative;
+    justify-content:  center;
+    z-index: 2;
+}
+.img-phone{
+
+    top:90px;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    background-position: 0%;
+    z-index: 1;
+    position: absolute;
+
+}
+@media (max-width:500px) {
+    h1{
+        font-size: 100px;
+    }
+    .container{
+        display: flex;
+       
+    }
+    .navigation-content{
+        flex-flow: row wrap;
+       
+    }
+    a{
+        padding-right: 10px;
+    }
+}
+.history-area{
+    font-family: title;
+    background-color: #404040;
+    width: 100%;
+    height: 650px;
+
+}
+.history-area h2{
+    color: #ffff;
+padding-top: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.history-bloks p{
+    font-size: 32px;
+    text-align: center;
+    color: #ffff;
+    width: 400px;
+    height: 300px;
+}
+.image-history{
+    width: 400px;
+    height: 450px;
+}
+.history-bloks{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width:700px){
+    .history-area{
+        width: 100%;
+        height: 1000px;
+
+    }
+    .history-bloks p{
+    padding-bottom: 20px;
+    }
+    .history-bloks{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.main-history{
+    margin-bottom: 10px;
+    font-family: title;
+    align-items: center;
+}
+.cloches-area{
+    font-family: title;
+    background-color: #BCBABA;
+    padding-top: 10px;
+    width: 100%;
+    height: 700px;
+    font-family: title;
+}
+.cloches-area h2{
+    font-size: 48px;
+    text-align: center;
+}
+.cloches-area p{
+    font-size: 24px;
+    text-align: center;
+}
+.cloches-box{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+   
+}
+.clohes-img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.cloches-blox1{
+    align-items: center;
+    width: 300px;
+    height: 430px;
+    
+    border-radius: 5%;
+
+}
+.cloches-blox1 p{
+    padding-top: 5px;
+}
+.closhes-button1{
+    width: 180.5px;
+    height: 40px;
+    background-color: #ffff;
+    font-size: 32px;
+    text-align: center;
+    border: none;
+    align-items: center;
+}
+@media(max-width:900px){
+    .cloches-area{
+        width: 100%;
+        height: 1650px;
+        align-items: center;
+    }
+    .cloches-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cloches-blox1{
+        padding-top: 40px;
+    }
+
+}
+
+.model-area{
+    background-color: #DAD7D7;
+    width: 100%;
+    height: 800px;
+    font-family: title;
+}
+.model-class h2{
+    padding-top: 50px;
+    font-size: 48px;
+    text-align: center;
+}
+.img-history{
+    width: 281px;
+    height: 300px;
+    align-items: center;
+}
+.model-blox p{
+    padding-top: 20px;
+    width: 266px;
+    height: 200px;
+}
+.model-blox{
+    align-items: center;
+}
+.model-box{
+    padding-top: 40px;
+display: flex;
+justify-content: space-around;
+}
+@media (max-width:1350px) {
+    .model-area{
+        width: 100%;
+        height: 1650px;
+    }
+}
+@media (max-width:850px) {
+    .model-area{
+        width: 100%;
+        height: 1650px;
+    }
+    .model-box{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:360px){
+    .model-area{
+        width: 100%;
+        height: 1800px;
+    }
+    .model-box{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.shop-area{
+    background-color: #E3E3E3;
+    width: 100%;
+    height: 1100px;
+    font-family: title;
+}
+.shop-area h2{
+    padding-top: 40px;
+    font-size: 48px;
+    text-align: center;
+}
+.shop-content h3{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.shop-img{
+    width: 285px;
+    height: 343px;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.shop-blox{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media(max-width:600px){
+    .shop-area{
+        width: 100%;
+        height: 1200px;
+    }
+    .shop-blox{
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+@media(max-width:500px){
+    .shop-area{
+        width: 100%;
+        height: 1600px;
+    }
+    .shop-img{
+        width: 200px;
+        height: 300px;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+}
+@media(max-width:400px){
+    .shop-area{
+        width: 100%;
+        height: 1600px;
+    }
+}
+.contacts-area{
+    background-color: #ffff;
+    width: 100%;
+    height: 500px;
+    font-family: title;
+}
+.contacts-area h2{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contacts-info p {
+    padding-top: 20px;
+    color:darkgrey;
+   
+}
+.contacts-block{
+    align-items: center;
+}
+.contacts-img-area{
+    padding-top: 40px;
+}
+.contacts-info{
+    font-size: 24px;
+    text-align: center;
+}
+
+.contacts-img img{
+    width: 90px;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+@media (max-width:330px) {
+    .contacts-img img{
+        width: 40px;
+        align-items: center;
+    }
+    .contacts-img{
+        display:flex ;
+       flex-direction: column;
+       align-items: center;
+    }   
+    .contacts-info{
+        font-size: 18px;
+        text-align: center;
+    }
+}
+.main-history .maim-cloches .main-model .main-shop .main-contacts{
+    padding-bottom: 40px;
+}
