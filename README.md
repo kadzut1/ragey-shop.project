@@ -1,1 +1,0 @@
-# ragey-shop.project
